@@ -18,6 +18,7 @@ import org.springframework.stereotype.Controller;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
+
     GoogleOAuth2SuccessHandler googleOAuth2SuccessHandler;
     @Autowired
     CustomUserDetailService customuserDetailService;
